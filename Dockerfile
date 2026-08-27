@@ -17,4 +17,4 @@ ENV PORT=5900
 
 EXPOSE 5900
 
-CMD ["node", "/app/index.js"]
+CMD ["node", "/app/index.js &"]
